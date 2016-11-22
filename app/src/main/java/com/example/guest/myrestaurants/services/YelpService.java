@@ -1,8 +1,12 @@
-package com.example.guest.myrestaurants;
+package com.example.guest.myrestaurants.services;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.view.ActionMode;
+
+import com.example.guest.myrestaurants.Constants;
+import com.example.guest.myrestaurants.R;
+import com.example.guest.myrestaurants.models.Restaurant;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.example.guest.myrestaurants;
+package com.example.guest.myrestaurants.ui;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.guest.myrestaurants.R;
+import com.example.guest.myrestaurants.ui.RestaurantsActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
