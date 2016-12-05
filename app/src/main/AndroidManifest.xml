@@ -25,7 +25,8 @@
                 android:value="com.example.guest.myrestaurants.ui.MainActivity" />
         </activity>
         <activity android:name=".services.YelpService" />
-        <activity android:name=".ui.RestaurantDetailActivity"></activity>
+        <activity android:name=".ui.RestaurantDetailActivity" />
+        <activity android:name=".ui.SavedRestaurantListActivity"></activity>
     </application>
 
 </manifest>
