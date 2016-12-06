@@ -33,7 +33,6 @@ public class SavedRestaurantListActivity extends AppCompatActivity {
         mRestaurantReference = FirebaseDatabase.getInstance().getReference(Constants.FIREBASE_CHILD_RESTAURANTS);
         setUpFirebaseAdapter();
     }
-
     private void setUpFirebaseAdapter() {
         mFirebaseAdapter = new FirebaseRecyclerAdapter<Restaurant, FirebaseRestaurantViewHolder>
                 (Restaurant.class, R.layout.restaurant_list_item, FirebaseRestaurantViewHolder.class,
